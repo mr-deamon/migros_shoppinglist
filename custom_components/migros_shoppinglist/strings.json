@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Migros Shopping List",
+        "description": "Sign in with your Migros account. If your account uses two-factor authentication, provide the TOTP secret (the base32 key shown when you set up the authenticator app).",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "totp_secret": "TOTP secret"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate Migros",
+        "description": "The stored session for {email} has expired. Enter your credentials again.",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "totp_secret": "TOTP secret"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Migros",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This Migros account is already configured",
+      "reauth_successful": "Re-authentication was successful",
+      "unique_id_mismatch": "The credentials are for a different Migros account"
+    }
+  }
+}

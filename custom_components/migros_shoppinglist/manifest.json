@@ -1,0 +1,11 @@
+{
+  "domain": "migros_shoppinglist",
+  "name": "Migros Shopping List",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/mr-deamon/migros-shoppinglist",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}
