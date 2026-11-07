@@ -1,7 +1,7 @@
 {
   "domain": "migros_shoppinglist",
   "name": "Migros Shopping List",
-  "codeowners": [],
+  "codeowners": ["@mr-deamon"],
   "config_flow": true,
   "documentation": "https://github.com/mr-deamon/migros-shoppinglist",
   "integration_type": "service",
